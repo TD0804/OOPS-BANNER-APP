@@ -1,6 +1,18 @@
 public class OopsBanner{
     public static void main(String []args){
-        //uc1:
-        System.out.println("OOPS");
+        //UC5:
+         String[] banner = {
+            String.join(" ", "   ***   ","   ***   "," *****  ","   ***** "),
+            String.join(" ", " **   ** "," **   ** "," **   **"," **      "),
+            String.join(" ", "**     **","**     **"," **   **","**       "),
+            String.join(" ", "**     **","**     **"," *****  ","  *****  "),
+            String.join(" ", "**     **","**     **"," **     ","      ** "),
+            String.join(" ", " **   ** "," **   ** "," **     ","**    ** "),
+            String.join(" ", "   ***   ","   ***   "," **     "," *****   ")
+        };
+
+        for (String line : banner) {
+            System.out.println(line);
+        }
     }
 }
